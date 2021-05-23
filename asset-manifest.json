@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chat-ap/static/css/main.b7bf2ce6.chunk.css",
-    "main.js": "/chat-ap/static/js/main.36929d75.chunk.js",
-    "main.js.map": "/chat-ap/static/js/main.36929d75.chunk.js.map",
+    "main.js": "/chat-ap/static/js/main.7f6a3a59.chunk.js",
+    "main.js.map": "/chat-ap/static/js/main.7f6a3a59.chunk.js.map",
     "runtime-main.js": "/chat-ap/static/js/runtime-main.26d49f0b.js",
     "runtime-main.js.map": "/chat-ap/static/js/runtime-main.26d49f0b.js.map",
     "static/js/2.989d229c.chunk.js": "/chat-ap/static/js/2.989d229c.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.c31e754e.chunk.js.map": "/chat-ap/static/js/3.c31e754e.chunk.js.map",
     "index.html": "/chat-ap/index.html",
     "static/css/main.b7bf2ce6.chunk.css.map": "/chat-ap/static/css/main.b7bf2ce6.chunk.css.map",
-    "static/js/2.989d229c.chunk.js.LICENSE.txt": "/chat-ap/static/js/2.989d229c.chunk.js.LICENSE.txt"
+    "static/js/2.989d229c.chunk.js.LICENSE.txt": "/chat-ap/static/js/2.989d229c.chunk.js.LICENSE.txt",
+    "static/media/splash.df0716d4.png": "/chat-ap/static/media/splash.df0716d4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.26d49f0b.js",
     "static/js/2.989d229c.chunk.js",
     "static/css/main.b7bf2ce6.chunk.css",
-    "static/js/main.36929d75.chunk.js"
+    "static/js/main.7f6a3a59.chunk.js"
   ]
 }
