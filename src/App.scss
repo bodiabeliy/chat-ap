@@ -1,0 +1,89 @@
+// импорт шрифтов
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+// переменные scss
+//общие переменные
+
+$none: none;
+$flex :flex;
+$full-size: 100%;
+//  переменные по отдельнным селекторам
+
+//
+$chatApp-navigation-background: white;
+$navigarion-link: black;
+$hover-link: #e5e5e5;
+
+//
+$avatar-margin:10px;
+$gradient: linear-gradient(0deg, #EEF0F4, #EEF0F4);
+$border: 1px dashed #77A193;
+
+//
+$float-action-position: 0;
+// селекторы
+
+
+
+//общие классы
+#root {
+  background: #fff;
+}
+.link {
+  text-decoration: $none;
+}
+
+// классы по отдельнным селекторам
+
+.chatApp__navigation {
+  background: $chatApp-navigation-background;
+}
+.navigarion__link {
+  color: $navigarion-link;
+  margin: 15px;
+}
+.navigarion__link:hover:focus {
+  color: $hover-link
+}
+.expandPanel {
+  width: $full-size;
+  margin-top: 20px;
+}
+
+.addBtn__avatar {
+  background: #000 !important;
+}
+.expendpanel__btn{              
+  position: absolute !important;
+  right: $float-action-position !important;
+  bottom: $float-action-position;
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+  background: #ef6c00 !important;
+  color: white !important;
+}
+.commentList {
+  height: 600px !important;
+  overflow: scroll;
+}
+
+.listContainer {
+  margin-top: 50px !important;
+}
+//классы Material UI
+
+.MuiAppBar-colorPrimary {
+  background: $none;
+}
+.MuiPaper-elevation1 {
+  box-shadow: $none !important;
+}
+.MuiAvatar-rounded {
+  margin-right: $avatar-margin;
+}
+
+.MuiAppBar-colorPrimary {
+  background: white !important;
+}
+
+
